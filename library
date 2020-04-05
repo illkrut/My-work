@@ -1,0 +1,5 @@
+<?php
+function card($book_name ="-", $author = "-", $year = "-") {
+    return "Вы заказали:Название книги: $book_name ; Автор: $author ; Год: $year.\n";
+}
+echo card("Love and boy","Effa","2005");
